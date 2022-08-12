@@ -97,3 +97,10 @@
 		}
 	}
 }() );
+
+jQuery(function() {
+	jQuery(document).on('click', '.header-body .header-btn-catalog', function () {
+		jQuery(this).toggleClass('open');
+		jQuery('.sidebar-catalog-menu').toggleClass('open');
+	})
+});
