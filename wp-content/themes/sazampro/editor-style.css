@@ -1,0 +1,18 @@
+
+.wp-block {
+    background: #a7a7a717;
+    border: 1px solid #a7a7a742;
+    font-family: sans-serif;
+    padding: 10px 5px;
+}
+
+.block-editor-block-list__block.wp-block {
+    max-width: 98%;
+}
+
+.wp-block-group:where(.has-background) {
+    padding: 20px;
+}
+
+
+

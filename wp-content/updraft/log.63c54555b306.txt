@@ -1,0 +1,549 @@
+0000.001 (0) Opened log file at time: Fri, 12 Aug 2022 04:57:25 +0000 on http://wp.akcent-test.tmweb.ru
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.6.25 WP: 6.0.1 PHP: 7.4.26 (apache2handler, Linux vh310 5.4.0-90-generic #101~18.04.1-Ubuntu SMP Fri Oct 22 09:25:04 UTC 2021 x86_64) MySQL: 5.7.35-38 (max packet size=20971520) WPLANG: ru_RU Server: Apache/2.4.29 safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 60.8M | 62M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 185333.7 MB
+0000.006 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.007 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.008 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1660195133, seconds_ago=85112)
+0000.009 (0) Set semaphore last lock (fd) time to 2022-08-12 04:57:25
+0000.009 (0) Semaphore lock (fd) complete
+0000.010 (0) Backup run: resumption=0, nonce=63c54555b306, file_nonce=63c54555b306 begun at=1660280245 (0s ago), job type=backup
+0000.011 (0) Scheduling a resumption (1) after 300 seconds (1660280545) in case this run gets aborted
+0000.022 (0) Checking if we have a zip executable available
+0000.023 (0) Testing: /usr/bin/zip
+0000.035 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.036 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.037 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.037 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.037 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.046 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.047 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.054 (0) Working binary zip found: /usr/bin/zip
+0000.055 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.055 (0) Creation of backups of directories: beginning
+0000.056 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0000.368 (0) Total entities for the zip file: 1312 directories, 6799 files (0 skipped as non-modified), 67.1 MB
+0000.371 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.374 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.376 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.378 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.381 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.383 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.386 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.389 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.391 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.394 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.394 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.6 MB, 6799 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.057 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: size is now: 4.10 MB
+0001.059 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 1100 files added (on-disk size: 4229.2 KB)
+0001.061 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 1200 files added (on-disk size: 4229.2 KB)
+0001.063 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 1300 files added (on-disk size: 4229.2 KB)
+0001.065 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 1400 files added (on-disk size: 4229.2 KB)
+0001.066 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 1500 files added (on-disk size: 4229.2 KB)
+0001.068 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 1600 files added (on-disk size: 4229.2 KB)
+0001.070 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 1700 files added (on-disk size: 4229.2 KB)
+0001.071 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 1800 files added (on-disk size: 4229.2 KB)
+0001.073 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 1900 files added (on-disk size: 4229.2 KB)
+0001.075 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 2000 files added (on-disk size: 4229.2 KB)
+0001.075 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.5 MB, 6799 files batched, 1001 (2002) added so far); re-opening (prior size: 4229.2 KB)
+0001.530 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: size is now: 6.00 MB
+0001.533 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 2100 files added (on-disk size: 6189.1 KB)
+0001.534 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 2200 files added (on-disk size: 6189.1 KB)
+0001.536 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 2300 files added (on-disk size: 6189.1 KB)
+0001.538 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 2400 files added (on-disk size: 6189.1 KB)
+0001.540 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 2500 files added (on-disk size: 6189.1 KB)
+0001.541 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 2600 files added (on-disk size: 6189.1 KB)
+0001.543 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 2700 files added (on-disk size: 6189.1 KB)
+0001.545 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 2800 files added (on-disk size: 6189.1 KB)
+0001.547 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 2900 files added (on-disk size: 6189.1 KB)
+0001.549 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 3000 files added (on-disk size: 6189.1 KB)
+0001.549 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.4 MB, 6799 files batched, 1001 (3003) added so far); re-opening (prior size: 6189.1 KB)
+0002.086 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: size is now: 8.70 MB
+0002.089 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 3100 files added (on-disk size: 8932.7 KB)
+0002.091 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 3200 files added (on-disk size: 8932.7 KB)
+0002.093 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 3300 files added (on-disk size: 8932.7 KB)
+0002.095 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 3400 files added (on-disk size: 8932.7 KB)
+0002.097 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 3500 files added (on-disk size: 8932.7 KB)
+0002.099 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 3600 files added (on-disk size: 8932.7 KB)
+0002.100 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 3700 files added (on-disk size: 8932.7 KB)
+0002.102 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 3800 files added (on-disk size: 8932.7 KB)
+0002.104 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 3900 files added (on-disk size: 8932.7 KB)
+0002.105 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 4000 files added (on-disk size: 8932.7 KB)
+0002.106 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.4 MB, 6799 files batched, 1001 (4004) added so far); re-opening (prior size: 8932.7 KB)
+0002.883 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: size is now: 12.80 MB
+0002.887 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 4100 files added (on-disk size: 13148.4 KB)
+0002.889 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 4200 files added (on-disk size: 13148.4 KB)
+0002.891 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 4300 files added (on-disk size: 13148.4 KB)
+0002.893 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 4400 files added (on-disk size: 13148.4 KB)
+0002.896 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 4500 files added (on-disk size: 13148.4 KB)
+0002.898 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 4600 files added (on-disk size: 13148.4 KB)
+0002.900 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 4700 files added (on-disk size: 13148.4 KB)
+0002.903 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 4800 files added (on-disk size: 13148.4 KB)
+0002.905 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 4900 files added (on-disk size: 13148.4 KB)
+0002.907 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 5000 files added (on-disk size: 13148.4 KB)
+0002.908 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.5 MB, 6799 files batched, 1001 (5005) added so far); re-opening (prior size: 13148.4 KB)
+0003.259 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 5100 files added (on-disk size: 14221.4 KB)
+0003.261 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 5200 files added (on-disk size: 14221.4 KB)
+0003.263 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 5300 files added (on-disk size: 14221.4 KB)
+0003.265 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 5400 files added (on-disk size: 14221.4 KB)
+0003.266 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 5500 files added (on-disk size: 14221.4 KB)
+0003.268 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 5600 files added (on-disk size: 14221.4 KB)
+0003.269 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 5700 files added (on-disk size: 14221.4 KB)
+0003.271 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 5800 files added (on-disk size: 14221.4 KB)
+0003.272 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 5900 files added (on-disk size: 14221.4 KB)
+0003.274 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 6000 files added (on-disk size: 14221.4 KB)
+0003.274 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.9 MB, 6799 files batched, 1001 (6006) added so far); re-opening (prior size: 14221.4 KB)
+0003.722 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 6100 files added (on-disk size: 16610.6 KB)
+0003.724 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 6200 files added (on-disk size: 16610.6 KB)
+0003.726 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 6300 files added (on-disk size: 16610.6 KB)
+0003.727 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 6400 files added (on-disk size: 16610.6 KB)
+0003.729 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 6500 files added (on-disk size: 16610.6 KB)
+0003.731 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 6600 files added (on-disk size: 16610.6 KB)
+0003.733 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: 6700 files added (on-disk size: 16610.6 KB)
+0004.562 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.tmp: size is now: 20.30 MB
+0004.636 (0) Creating zip file manifest (/home/c/cl69289/wp.akcent-test.tmweb.ru/public_html/wp-content/updraft/backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.list-temp.tmp)
+0004.691 (0) Successfully created zip file manifest (size: 638614)
+0004.873 (0) Created plugins zip (0) - 20750.5 KB in 4.8 s (4311.4 KB/s) (sha1: 8c2f7b3bc9b9c71082398b12bb4a08f66f0acbf7, sha256: 8d5981c8e03981445e9c521eb80d77fe2a61f4e12fdd46da75c1de39e91b2e2d)
+0004.875 (0) Beginning creation of dump of themes (split every: 25 MB)
+0004.883 (0) Total entities for the zip file: 16 directories, 107 files (0 skipped as non-modified), 0.8 MB
+0004.885 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.947 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-themes.zip.tmp: size is now: 0.30 MB
+0004.949 (0) Creating zip file manifest (/home/c/cl69289/wp.akcent-test.tmweb.ru/public_html/wp-content/updraft/backup_2022-08-12-0757_SaZamPro_63c54555b306-themes.zip.list-temp.tmp)
+0004.950 (0) Successfully created zip file manifest (size: 6101)
+0004.954 (0) Created themes zip (0) - 263.6 KB in 0.1 s (3410.5 KB/s) (sha1: 0566da0e1c0a06e906e496ad33b8d962f3463876, sha256: 600f2fb396f9104079f45ad41e6f6bf40f7140a56968e04668fd5ba570f8d9d6)
+0004.956 (0) Exclusion option setting (uploads): 
+0004.956 (0) Looking for candidates to backup in: /home/c/cl69289/wp.akcent-test.tmweb.ru/public_html/wp-content/uploads
+0004.957 (0) finding files: woocommerce-placeholder-560x420.png: adding to list (1)
+0004.957 (0) finding files: woocommerce-placeholder.png: adding to list (2)
+0004.957 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (3)
+0004.957 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (4)
+0004.958 (0) finding files: woocommerce_uploads: adding to list (5)
+0004.958 (0) finding files: woocommerce-placeholder-240x220.png: adding to list (6)
+0004.958 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (7)
+0004.958 (0) finding files: wc-logs: adding to list (8)
+0004.958 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (9)
+0004.959 (0) finding files: 2022: adding to list (10)
+0004.959 (0) finding files: woocommerce-placeholder-104x104.png: adding to list (11)
+0004.959 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (12)
+0004.959 (0) finding files: wpcf7_uploads: adding to list (13)
+0004.959 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0005.090 (0) Total entities for the zip file: 6 directories, 4304 files (0 skipped as non-modified), 146.7 MB
+0005.092 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.094 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.096 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.097 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0005.099 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0005.100 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0005.102 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0005.104 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0005.104 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.3 MB, 4304 files batched, 819 (819) added so far); re-opening (prior size: 0 KB)
+0005.591 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads.zip.tmp: size is now: 25.40 MB
+0005.593 (0) A useful amount of data was added after this amount of zip processing: 1.1 s (normalised: 1 s, rate: 24390 KB/s)
+0005.593 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.0612499713898, normalised_time=1.0496092718802, max_time=5.591639995575, data points known=1, max_bytes=26214400)
+0005.593 (0) Zip size is at/near split limit (25.4 MB / 25 MB) - bumping index (from: 0)
+0005.815 (0) Creating zip file manifest (/home/c/cl69289/wp.akcent-test.tmweb.ru/public_html/wp-content/updraft/backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads.zip.list-temp.tmp)
+0005.822 (0) Successfully created zip file manifest (size: 47183)
+0005.823 (0) Created uploads zip (0) - 25966.1 KB in 0.6 s (41016.5 KB/s) (checksums: sha1: 67d14d7294c276329acc3ba3a3b0d537e6875ea6, sha256: d52c91f7710401029c103d0bdfc16be49d9c67c4f408cd7ba759fe7f56362779)
+0005.825 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip.tmp: 900 files added (on-disk size: 0 KB)
+0005.826 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0005.828 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0005.829 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0005.831 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0005.832 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0005.834 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0005.835 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0005.837 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0005.837 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 4304 files batched, 892 (1711) added so far); re-opening (prior size: 0 KB)
+0006.357 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip.tmp: size is now: 25.20 MB
+0006.359 (0) A useful amount of data was added after this amount of zip processing: 0.8 s (normalised: 0.8 s, rate: 30950.3 KB/s)
+0006.360 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=0.82765603065491, normalised_time=0.82713364507188, max_time=6.3581650257111, data points known=1, max_bytes=26214400)
+0006.360 (0) Zip size is at/near split limit (25.2 MB / 25 MB) - bumping index (from: 1)
+0006.598 (0) Creating zip file manifest (/home/c/cl69289/wp.akcent-test.tmweb.ru/public_html/wp-content/updraft/backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip.list-temp.tmp)
+0006.606 (0) Successfully created zip file manifest (size: 51311)
+0006.608 (0) Created uploads zip (1) - 25804.3 KB in 0.5 s (47988.8 KB/s) (checksums: sha1: 1e8fa3055f581d59cec80b254938b46e3ba1af69, sha256: 5ccdd3ab80b1fe1df02fabafaed1b7d6a569a2f1d461b6e0432f0973e3c48d18)
+0006.611 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0006.612 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0006.614 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0006.616 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0006.618 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0006.619 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0006.621 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0006.623 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0006.624 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0006.626 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 4304 files batched, 965 (2676) added so far); re-opening (prior size: 0 KB)
+0007.182 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip.tmp: size is now: 25.20 MB
+0007.184 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.7 s, rate: 15509.2 KB/s)
+0007.184 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.6525731086731, normalised_time=1.6506366280038, max_time=7.1829891204834, data points known=1, max_bytes=26214400)
+0007.186 (0) Zip size is at/near split limit (25.2 MB / 25 MB) - bumping index (from: 2)
+0007.431 (0) Creating zip file manifest (/home/c/cl69289/wp.akcent-test.tmweb.ru/public_html/wp-content/updraft/backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip.list-temp.tmp)
+0007.440 (0) Successfully created zip file manifest (size: 55917)
+0007.441 (0) Created uploads zip (2) - 25834.3 KB in 0.6 s (44759 KB/s) (checksums: sha1: 50d39fcb314ca3c677307c020bb043c4eba83acc, sha256: 08de352a9337366ed834987b5f35c49f1f277ef84e4838692be22a0ee9a819ab)
+0007.443 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads4.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0007.444 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads4.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0007.446 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads4.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0007.448 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads4.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0007.449 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads4.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0007.451 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads4.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0007.452 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 4304 files batched, 566 (3242) added so far); re-opening (prior size: 0 KB)
+0008.014 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads4.zip.tmp: size is now: 25.10 MB
+0008.016 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 17248.8 KB/s)
+0008.017 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.4848968982697, normalised_time=1.4841596421486, max_time=8.0154459476471, data points known=1, max_bytes=26214400)
+0008.017 (0) Zip size is at/near split limit (25.1 MB / 25 MB) - bumping index (from: 3)
+0008.267 (0) Creating zip file manifest (/home/c/cl69289/wp.akcent-test.tmweb.ru/public_html/wp-content/updraft/backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads4.zip.list-temp.tmp)
+0008.273 (0) Successfully created zip file manifest (size: 32586)
+0008.274 (0) Created uploads zip (3) - 25731.5 KB in 0.6 s (44618.9 KB/s) (checksums: sha1: 530e5a5577e6866547b9e91706b091fd82ffc840, sha256: 3b96d826b4bb9f439325cf45c9e4595be6137fcdc7f653378dcc8d7dd4308f33)
+0008.277 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads5.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0008.279 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads5.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0008.281 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads5.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0008.282 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads5.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0008.284 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads5.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0008.286 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads5.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0008.287 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 4304 files batched, 589 (3831) added so far); re-opening (prior size: 0 KB)
+0008.733 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads5.zip.tmp: size is now: 25.10 MB
+0008.734 (0) A useful amount of data was added after this amount of zip processing: 1.2 s (normalised: 1.2 s, rate: 21288.5 KB/s)
+0008.734 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.2027020454407, normalised_time=1.2025279581604, max_time=8.7330739498138, data points known=1, max_bytes=26214400)
+0008.735 (0) Zip size is at/near split limit (25.1 MB / 25 MB) - bumping index (from: 4)
+0008.982 (0) Creating zip file manifest (/home/c/cl69289/wp.akcent-test.tmweb.ru/public_html/wp-content/updraft/backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads5.zip.list-temp.tmp)
+0008.988 (0) Successfully created zip file manifest (size: 34246)
+0008.989 (0) Created uploads zip (4) - 25728.5 KB in 0.5 s (55823 KB/s) (checksums: sha1: da450df3bd9d9dc469d2e516b5fa65550fb564c0, sha256: 406ca9f6cdf7a5e7b06f342d659e10b99cb6eb8159f9747f03b8e89c84a66d6d)
+0008.991 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads6.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0008.993 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads6.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0008.994 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads6.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0008.996 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads6.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0008.998 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads6.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0009.374 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads6.zip.tmp: size is now: 21.40 MB
+0009.379 (0) Creating zip file manifest (/home/c/cl69289/wp.akcent-test.tmweb.ru/public_html/wp-content/updraft/backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads6.zip.list-temp.tmp)
+0009.383 (0) Successfully created zip file manifest (size: 27295)
+0009.584 (0) Created uploads zip (5) - 21946.6 KB in 0.6 s (36924.8 KB/s) (sha1: bb0a1ba591f6ba76b9e799c627c1866580d429bd, sha256: fcaa025f325a08cfa56556bae75eeb8fa883c67e9aab64be615cadad0784462c)
+0009.585 (0) No backup of wpcore: excluded by user's options
+0009.586 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.587 (0) Exclusion option setting (others): 
+0009.587 (0) Looking for candidates to backup in: /home/c/cl69289/wp.akcent-test.tmweb.ru/public_html/wp-content
+0009.587 (0) finding files: plugins: skipping: this is the plugins directory
+0009.588 (0) finding files: themes: skipping: this is the themes directory
+0009.588 (0) finding files: uploads: skipping: this is the uploads directory
+0009.588 (0) finding files: index.php: adding to list (1)
+0009.588 (0) finding files: updraft: skipping: this is the updraft directory
+0009.589 (0) finding files: languages: adding to list (2)
+0009.589 (0) finding files: upgrade: adding to list (3)
+0009.600 (0) Total entities for the zip file: 4 directories, 363 files (0 skipped as non-modified), 7.2 MB
+0009.602 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.604 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.606 (0) Zip: backup_2022-08-12-0757_SaZamPro_63c54555b306-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.063 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-others.zip.tmp: size is now: 1.80 MB
+0010.067 (0) Creating zip file manifest (/home/c/cl69289/wp.akcent-test.tmweb.ru/public_html/wp-content/updraft/backup_2022-08-12-0757_SaZamPro_63c54555b306-others.zip.list-temp.tmp)
+0010.071 (0) Successfully created zip file manifest (size: 28901)
+0010.091 (0) Created others zip (0) - 1870.2 KB in 0.5 s (3737.3 KB/s) (sha1: 2318b279c4472216d461b7197e13506be472e24b, sha256: eb4e8f36a94fc9497d589fb19aaf2baf25e62b388500690b78d505274b7743e2)
+0010.092 (0) No backup of more: excluded by user's options
+0010.095 (0) Saving backup status to database (elements: 13)
+0010.098 (0) Beginning creation of database dump (WordPress DB)
+0010.099 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0010.100 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0010.122 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\n/*!50717 SELECT COUNT(*) INTO @rocksdb_has_p_s_session_variables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'performance_schema' AND TABL (truncated - 2584 bytes total)
+0010.123 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0010.139 (0) Table wp_options: Total expected rows (via COUNT): 647
+0010.202 (0) Table wp_options: Rows added in this batch (next record: 22364): 643 (uncompressed bytes in this segment=1519463) in 0.07 seconds
+0010.205 (0) Table wp_options: finishing file(s) (2, 343.5 KB)
+0010.208 (0) Table wp_users: Total expected rows (via COUNT): 2
+0010.209 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.209 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1527) in 0.00 seconds
+0010.211 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0010.215 (0) Table wp_usermeta: Total expected rows (via COUNT): 69
+0010.216 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.217 (0) Table wp_usermeta: Rows added in this batch (next record: 81): 69 (uncompressed bytes in this segment=9264) in 0.00 seconds
+0010.220 (0) Table wp_usermeta: finishing file(s) (2, 3 KB)
+0010.223 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 1246
+0010.243 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 1384): 1291 (uncompressed bytes in this segment=459551) in 0.02 seconds
+0010.246 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 37.8 KB)
+0010.247 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0010.248 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=627) in 0.00 seconds
+0010.250 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0010.251 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 4
+0010.252 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.252 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=783) in 0.00 seconds
+0010.258 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0010.262 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 2698
+0010.287 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 4135): 3871 (uncompressed bytes in this segment=430812) in 0.03 seconds
+0010.289 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 39.2 KB)
+0010.293 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0010.294 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0010.297 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0010.300 (0) Table wp_comments: Total expected rows (via COUNT): 3
+0010.300 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.301 (0) Table wp_comments: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=3028) in 0.00 seconds
+0010.303 (0) Table wp_comments: finishing file(s) (2, 1.2 KB)
+0010.306 (0) Table wp_links: Total expected rows (via COUNT): 0
+0010.307 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0010.308 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0010.310 (0) Table wp_postmeta: Total expected rows (approximate): 15396
+0010.378 (0) Table wp_postmeta: binary mysqldump finished (writes: 46, bytes 1986992, return code 0) in 0.07 seconds
+0010.381 (0) Table wp_postmeta: finishing file(s) (1, 173.7 KB)
+0010.385 (0) Table wp_posts: Total expected rows (approximate): 1444
+0010.442 (0) Table wp_posts: Rows added in this batch (next record: 1758): 1571 (uncompressed bytes in this segment=1170408) in 0.06 seconds
+0010.446 (0) Table wp_posts: finishing file(s) (2, 155.2 KB)
+0010.447 (0) Table wp_term_relationships: Total expected rows (approximate): 1263
+0010.452 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 1424 (uncompressed bytes in this segment=22460) in 0.00 seconds
+0010.454 (0) Table wp_term_relationships: finishing file(s) (2, 3.8 KB)
+0010.457 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 138
+0010.457 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.458 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 172): 138 (uncompressed bytes in this segment=6239) in 0.00 seconds
+0010.461 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.5 KB)
+0010.466 (0) Table wp_termmeta: Total expected rows (via COUNT): 720
+0010.466 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.470 (0) Table wp_termmeta: Rows added in this batch (next record: 807): 720 (uncompressed bytes in this segment=27097) in 0.01 seconds
+0010.472 (0) Table wp_termmeta: finishing file(s) (2, 4.8 KB)
+0010.474 (0) Table wp_terms: Total expected rows (via COUNT): 138
+0010.475 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.476 (0) Table wp_terms: Rows added in this batch (next record: 172): 138 (uncompressed bytes in this segment=10540) in 0.00 seconds
+0010.478 (0) Table wp_terms: finishing file(s) (2, 3.8 KB)
+0010.481 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 341
+0010.483 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 432 (uncompressed bytes in this segment=5716) in 0.00 seconds
+0010.485 (0) Table wp_wc_category_lookup: finishing file(s) (2, 1.5 KB)
+0010.489 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 727
+0010.495 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 1757): 727 (uncompressed bytes in this segment=66851) in 0.01 seconds
+0010.497 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 4.4 KB)
+0010.500 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0010.501 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=665) in 0.00 seconds
+0010.502 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0010.506 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0010.506 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.507 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1006) in 0.00 seconds
+0010.508 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.5 KB)
+0010.512 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 17
+0010.512 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.513 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=1679) in 0.00 seconds
+0010.516 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.9 KB)
+0010.520 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0010.521 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0010.523 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0010.526 (0) Table wp_facetwp_index: Total expected rows (via COUNT): 10
+0010.527 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.527 (0) Table wp_facetwp_index: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1429) in 0.00 seconds
+0010.529 (0) Table wp_facetwp_index: finishing file(s) (2, 0.5 KB)
+0010.532 (0) Table wp_search_filter_cache: Total expected rows (approximate): 2190
+0010.548 (0) Table wp_search_filter_cache: Rows added in this batch (next record: 3996): 2487 (uncompressed bytes in this segment=140209) in 0.02 seconds
+0010.550 (0) Table wp_search_filter_cache: finishing file(s) (2, 15.3 KB)
+0010.553 (0) Table wp_search_filter_term_results: Total expected rows (via COUNT): 190
+0010.553 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.556 (0) Table wp_search_filter_term_results: Rows added in this batch (next record: 2953): 190 (uncompressed bytes in this segment=19937) in 0.00 seconds
+0010.558 (0) Table wp_search_filter_term_results: finishing file(s) (2, 4.6 KB)
+0010.560 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 58
+0010.560 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.562 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 2385): 58 (uncompressed bytes in this segment=10689) in 0.00 seconds
+0010.564 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2.6 KB)
+0010.567 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 50
+0010.567 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.568 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 50): 50 (uncompressed bytes in this segment=26222) in 0.00 seconds
+0010.571 (0) Table wp_wc_admin_notes: finishing file(s) (2, 7.3 KB)
+0010.574 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 1
+0010.575 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.575 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1442) in 0.00 seconds
+0010.577 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.6 KB)
+0010.580 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0010.581 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=926) in 0.00 seconds
+0010.583 (0) Table wp_wc_download_log: finishing file(s) (2, 0.5 KB)
+0010.586 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0010.586 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=717) in 0.00 seconds
+0010.588 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0010.591 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 1
+0010.591 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.592 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1361) in 0.00 seconds
+0010.594 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0010.597 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 1
+0010.597 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.597 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 814): 1 (uncompressed bytes in this segment=1269) in 0.00 seconds
+0010.599 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.6 KB)
+0010.602 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0010.603 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=799) in 0.00 seconds
+0010.605 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0010.608 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0010.609 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=862) in 0.00 seconds
+0010.611 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0010.613 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 3
+0010.614 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.615 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1021) in 0.00 seconds
+0010.618 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0010.620 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0010.621 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.00 seconds
+0010.623 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0010.626 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0010.626 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1230) in 0.00 seconds
+0010.628 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0010.632 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0010.633 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1046) in 0.00 seconds
+0010.635 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0010.638 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0010.639 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=978) in 0.00 seconds
+0010.640 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0010.643 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0010.644 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1538) in 0.00 seconds
+0010.645 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0010.649 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0010.649 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.00 seconds
+0010.652 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0010.655 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 2
+0010.655 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.656 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=984) in 0.00 seconds
+0010.658 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.5 KB)
+0010.661 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0010.662 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.00 seconds
+0010.664 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0010.666 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 9
+0010.667 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.668 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 220): 9 (uncompressed bytes in this segment=18223) in 0.00 seconds
+0010.670 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 2.2 KB)
+0010.674 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0010.674 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=874) in 0.00 seconds
+0010.676 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0010.679 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 3
+0010.680 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.681 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=949) in 0.00 seconds
+0010.682 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.5 KB)
+0010.686 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0010.686 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.686 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=743) in 0.00 seconds
+0010.688 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0010.690 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0010.692 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.00 seconds
+0010.694 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0010.697 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0010.697 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1301) in 0.00 seconds
+0010.699 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0010.700 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_options.table.tmpr22365.gz (1/49/fopen): adding to final database dump
+0010.711 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_options.table.gz (2/49/fopen): adding to final database dump
+0010.712 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_users.table.tmpr3.gz (3/49/fopen): adding to final database dump
+0010.712 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_users.table.gz (4/49/fopen): adding to final database dump
+0010.712 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_usermeta.table.tmpr82.gz (5/49/fopen): adding to final database dump
+0010.713 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_usermeta.table.gz (6/49/fopen): adding to final database dump
+0010.713 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_actionscheduler_actions.table.tmpr1385.gz (7/49/fopen): adding to final database dump
+0010.714 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_actionscheduler_actions.table.gz (8/49/fopen): adding to final database dump
+0010.714 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/49/fopen): adding to final database dump
+0010.714 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_actionscheduler_claims.table.gz (10/49/fopen): adding to final database dump
+0010.714 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_actionscheduler_groups.table.tmpr5.gz (11/49/fopen): adding to final database dump
+0010.715 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_actionscheduler_groups.table.gz (12/49/fopen): adding to final database dump
+0010.715 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_actionscheduler_logs.table.tmpr4136.gz (13/49/fopen): adding to final database dump
+0010.716 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_actionscheduler_logs.table.gz (14/49/fopen): adding to final database dump
+0010.716 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_commentmeta.table.tmpr0.gz (15/49/fopen): adding to final database dump
+0010.716 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_commentmeta.table.gz (16/49/fopen): adding to final database dump
+0010.717 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_comments.table.tmpr4.gz (17/49/fopen): adding to final database dump
+0010.717 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_comments.table.gz (18/49/fopen): adding to final database dump
+0010.717 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_links.table.tmpr0.gz (19/49/fopen): adding to final database dump
+0010.717 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_links.table.gz (20/49/fopen): adding to final database dump
+0010.718 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_postmeta.table.gz (21/49/fopen): adding to final database dump
+0010.724 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_posts.table.tmpr1759.gz (22/49/fopen): adding to final database dump
+0010.729 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_posts.table.gz (23/49/fopen): adding to final database dump
+0010.730 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_term_relationships.table.tmpr100001.gz (24/49/fopen): adding to final database dump
+0010.730 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_term_relationships.table.gz (25/49/fopen): adding to final database dump
+0010.730 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_term_taxonomy.table.tmpr173.gz (26/49/fopen): adding to final database dump
+0010.731 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_term_taxonomy.table.gz (27/49/fopen): adding to final database dump
+0010.731 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_termmeta.table.tmpr808.gz (28/49/fopen): adding to final database dump
+0010.731 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_termmeta.table.gz (29/49/fopen): adding to final database dump
+0010.732 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_terms.table.tmpr173.gz (30/49/fopen): adding to final database dump
+0010.732 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_terms.table.gz (31/49/fopen): adding to final database dump
+0010.732 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_category_lookup.table.tmpr1001.gz (32/49/fopen): adding to final database dump
+0010.733 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_category_lookup.table.gz (33/49/fopen): adding to final database dump
+0010.733 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_product_meta_lookup.table.tmpr1758.gz (34/49/fopen): adding to final database dump
+0010.733 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_product_meta_lookup.table.gz (35/49/fopen): adding to final database dump
+0010.734 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_reserved_stock.table.tmpr1.gz (36/49/fopen): adding to final database dump
+0010.734 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_reserved_stock.table.gz (37/49/fopen): adding to final database dump
+0010.734 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (38/49/fopen): adding to final database dump
+0010.734 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_tax_rate_classes.table.gz (39/49/fopen): adding to final database dump
+0010.734 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_order_itemmeta.table.tmpr18.gz (40/49/fopen): adding to final database dump
+0010.735 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_order_itemmeta.table.gz (41/49/fopen): adding to final database dump
+0010.735 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (42/49/fopen): adding to final database dump
+0010.735 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_payment_tokenmeta.table.gz (43/49/fopen): adding to final database dump
+0010.735 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_facetwp_index.table.tmpr11.gz (44/49/fopen): adding to final database dump
+0010.735 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_facetwp_index.table.gz (45/49/fopen): adding to final database dump
+0010.736 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_search_filter_cache.table.tmpr3997.gz (46/49/fopen): adding to final database dump
+0010.737 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_search_filter_cache.table.gz (47/49/fopen): adding to final database dump
+0010.737 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_search_filter_term_results.table.tmpr2954.gz (48/49/fopen): adding to final database dump
+0010.738 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_search_filter_term_results.table.gz (49/49/fopen): adding to final database dump
+0010.738 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_admin_note_actions.table.tmpr2386.gz (50/49/fopen): adding to final database dump
+0010.738 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_admin_note_actions.table.gz (51/49/fopen): adding to final database dump
+0010.738 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_admin_notes.table.tmpr51.gz (52/49/fopen): adding to final database dump
+0010.739 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_admin_notes.table.gz (53/49/fopen): adding to final database dump
+0010.739 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_customer_lookup.table.tmpr2.gz (54/49/fopen): adding to final database dump
+0010.739 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_customer_lookup.table.gz (55/49/fopen): adding to final database dump
+0010.739 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_download_log.table.tmpr0.gz (56/49/fopen): adding to final database dump
+0010.740 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_download_log.table.gz (57/49/fopen): adding to final database dump
+0010.740 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (58/49/fopen): adding to final database dump
+0010.740 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_order_coupon_lookup.table.gz (59/49/fopen): adding to final database dump
+0010.740 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_order_product_lookup.table.tmpr2.gz (60/49/fopen): adding to final database dump
+0010.741 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_order_product_lookup.table.gz (61/49/fopen): adding to final database dump
+0010.741 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_order_stats.table.tmpr815.gz (62/49/fopen): adding to final database dump
+0010.741 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_order_stats.table.gz (63/49/fopen): adding to final database dump
+0010.741 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (64/49/fopen): adding to final database dump
+0010.742 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_order_tax_lookup.table.gz (65/49/fopen): adding to final database dump
+0010.742 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (66/49/fopen): adding to final database dump
+0010.742 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_product_attributes_lookup.table.gz (67/49/fopen): adding to final database dump
+0010.742 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_product_download_directories.table.tmpr4.gz (68/49/fopen): adding to final database dump
+0010.743 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_product_download_directories.table.gz (69/49/fopen): adding to final database dump
+0010.744 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_rate_limits.table.tmpr0.gz (70/49/fopen): adding to final database dump
+0010.744 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_rate_limits.table.gz (71/49/fopen): adding to final database dump
+0010.744 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_webhooks.table.tmpr0.gz (72/49/fopen): adding to final database dump
+0010.745 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_wc_webhooks.table.gz (73/49/fopen): adding to final database dump
+0010.745 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (74/49/fopen): adding to final database dump
+0010.745 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_api_keys.table.gz (75/49/fopen): adding to final database dump
+0010.745 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (76/49/fopen): adding to final database dump
+0010.746 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_attribute_taxonomies.table.gz (77/49/fopen): adding to final database dump
+0010.746 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (78/49/fopen): adding to final database dump
+0010.746 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (79/49/fopen): adding to final database dump
+0010.746 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_log.table.tmpr0.gz (80/49/fopen): adding to final database dump
+0010.746 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_log.table.gz (81/49/fopen): adding to final database dump
+0010.747 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_order_items.table.tmpr3.gz (82/49/fopen): adding to final database dump
+0010.747 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_order_items.table.gz (83/49/fopen): adding to final database dump
+0010.747 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (84/49/fopen): adding to final database dump
+0010.747 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_payment_tokens.table.gz (85/49/fopen): adding to final database dump
+0010.748 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_sessions.table.tmpr221.gz (86/49/fopen): adding to final database dump
+0010.748 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_sessions.table.gz (87/49/fopen): adding to final database dump
+0010.748 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (88/49/fopen): adding to final database dump
+0010.749 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_shipping_zone_locations.table.gz (89/49/fopen): adding to final database dump
+0010.749 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr4.gz (90/49/fopen): adding to final database dump
+0010.750 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_shipping_zone_methods.table.gz (91/49/fopen): adding to final database dump
+0010.750 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (92/49/fopen): adding to final database dump
+0010.751 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_shipping_zones.table.gz (93/49/fopen): adding to final database dump
+0010.751 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (94/49/fopen): adding to final database dump
+0010.751 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_tax_rate_locations.table.gz (95/49/fopen): adding to final database dump
+0010.751 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (96/49/fopen): adding to final database dump
+0010.752 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db-table-wp_woocommerce_tax_rates.table.gz (97/49/fopen): adding to final database dump
+0010.858 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db.gz: finished writing out complete database file (819.5 KB)
+0010.872 (0) Total database tables backed up: 49 (backup_2022-08-12-0757_SaZamPro_63c54555b306-db.gz, size: 839270, sha1: d63b72fe70657bfcfd454479b154b5056f4f7652, sha256: f7d64dad5b00e95c89ff8e084323a03c45e1f622cec69db9a1db1ce5e22d17d6)
+0010.878 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.878 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0010.878 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.879 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.879 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.879 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.880 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.880 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads6.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.880 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-others.zip: others: This file has not yet been successfully uploaded: will queue
+0010.881 (0) backup_2022-08-12-0757_SaZamPro_63c54555b306-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.881 (0) Saving backup history. Total backup size: 170.6 MB
+0010.883 (0) Requesting upload of the files that have not yet been successfully uploaded (10)
+0010.885 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0010.885 (0) No remote despatch: user chose no remote backup service
+0010.886 (0) Recording as successfully uploaded: backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip
+0010.887 (0) Deleting zip manifest (backup_2022-08-12-0757_SaZamPro_63c54555b306-plugins.zip.list.tmp)
+0010.887 (0) Recording as successfully uploaded: backup_2022-08-12-0757_SaZamPro_63c54555b306-themes.zip
+0010.888 (0) Deleting zip manifest (backup_2022-08-12-0757_SaZamPro_63c54555b306-themes.zip.list.tmp)
+0010.888 (0) Recording as successfully uploaded: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads.zip
+0010.889 (0) Deleting zip manifest (backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads.zip.list.tmp)
+0010.890 (0) Recording as successfully uploaded: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip
+0010.890 (0) Deleting zip manifest (backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads2.zip.list.tmp)
+0010.890 (0) Recording as successfully uploaded: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip
+0010.892 (0) Deleting zip manifest (backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads3.zip.list.tmp)
+0010.892 (0) Recording as successfully uploaded: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads4.zip
+0010.893 (0) Deleting zip manifest (backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads4.zip.list.tmp)
+0010.894 (0) Recording as successfully uploaded: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads5.zip
+0010.895 (0) Deleting zip manifest (backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads5.zip.list.tmp)
+0010.895 (0) Recording as successfully uploaded: backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads6.zip
+0010.896 (0) Deleting zip manifest (backup_2022-08-12-0757_SaZamPro_63c54555b306-uploads6.zip.list.tmp)
+0010.896 (0) Recording as successfully uploaded: backup_2022-08-12-0757_SaZamPro_63c54555b306-others.zip
+0010.897 (0) Deleting zip manifest (backup_2022-08-12-0757_SaZamPro_63c54555b306-others.zip.list.tmp)
+0010.898 (0) Recording as successfully uploaded: backup_2022-08-12-0757_SaZamPro_63c54555b306-db.gz
+0010.899 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0010.899 (0) Resume backup (63c54555b306, 0): finish run
+0010.900 (0) Decremented the semaphore (fd) by 1
+0010.900 (0) Semaphore (fd) unlocked
+0010.900 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0010.903 (0) No email will/can be sent - the user has not configured an email address.
+0010.903 (0) The backup apparently succeeded and is now complete
